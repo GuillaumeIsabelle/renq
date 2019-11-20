@@ -1,0 +1,31 @@
+{
+  "name": "renq",
+  "version": "0.0.1",
+  "description": "File management Sequencing helpers",
+  "main": "renq.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "renq": "renq.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuillaumeIsabelle/renq.git"
+  },
+  "keywords": [
+    "filename",
+    "sequence",
+    "renamer",
+    "vfx"
+  ],
+  "author": "Guillaume D.Isabelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuillaumeIsabelle/renq.git/issues"
+  },
+  "homepage": "https://github.com/GuillaumeIsabelle/renq.git#readme",
+  "dependencies": {
+    "pad-number": "0.0.4"
+  }
+}
