@@ -1,10 +1,10 @@
 {
   "name": "renq",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "File management Sequencing helpers",
   "main": "renq.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./renq 12 80 jpg 4"
   },
   "bin": {
     "renq": "renq.js"
