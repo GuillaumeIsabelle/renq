@@ -18,8 +18,8 @@ var args = process.argv.slice(2);
 
 var p = require('./package.json');
 
-console.log(` -- RENQ Guillaume D.Isabelle Sequence Renamer,
-\tversion : ${p.version}`);
+console.log(`// -- RENQ Guillaume D.Isabelle Sequence Renamer,
+//\tversion : ${p.version}`);
 if (debug > 0)
 {
 
