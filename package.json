@@ -1,6 +1,6 @@
 {
   "name": "renq",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "File management Sequencing helpers",
   "main": "renq.js",
   "scripts": {
@@ -17,6 +17,7 @@
     "filename",
     "sequence",
     "renamer",
+    "offset",
     "vfx"
   ],
   "author": "Guillaume D.Isabelle",

@@ -1,6 +1,9 @@
 # renq
 Rename a sequence of file starting from a number and bring it to 1.
 
+## LIMITATION
+* you must copy paste the output into a script and run it.
+
 ##     ===SYNOPSIS===
 ```shell
 # renq [startNo] [endNo] [ext] ([pad] [mv cmd])
