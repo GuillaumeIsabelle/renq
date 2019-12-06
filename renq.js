@@ -55,8 +55,8 @@ function runProgram()
     var start = -1;
     var end = -1;
 
-     try { start = args[0]? args[0] : -1;} catch (error) {}
-     try {  end =args[1]? args[1]  : -1; } catch (error) {}
+     try { start = args[0]? Number(args[0]) : -1;} catch (error) {}
+     try {  end =args[1]? Number(args[1])  : -1; } catch (error) {}
 
     // if (end != -1 ) end += 1;
     var ext = defaultExt;
@@ -64,7 +64,7 @@ function runProgram()
     var renamer =defaultRenamer;
 
     try { ext = args[2]? args[2] : defaultExt;} catch (error) {}
-    try {   spad = args[3]? args[3] :4; } catch (error) {}
+    try {   spad = args[3]? Number(args[3]) :4; } catch (error) {}
     
     try { renamer = args[4] ? args[4] : defaultRenamer; } catch (error) { }
     
@@ -79,12 +79,11 @@ showHelp();
     }
     else {
         var c = 1;
-        var start2 =  Number(start) ;
-        var end2 =  Number(end);
+        
 
-        console.log(`start:${start2} - end: ${end2} - ext: ${ext} - spad: ${spad} - renamer: ${renamer}`);
+        console.log(`start:${start} - end: ${end} - ext: ${ext} - spad: ${spad} - renamer: ${renamer}`);
 
-        for (let i = start2; i <= end2 ; i++) {
+        for (let i = start; i <= end ; i++) {
             
             try {
                   // console.log(pad(10, 4)); // '0010'
